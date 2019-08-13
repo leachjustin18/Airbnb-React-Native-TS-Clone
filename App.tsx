@@ -8,7 +8,7 @@
  * @format
  */
 
-import React, {Fragment} from 'react';
+import React, {Fragment, FC} from 'react';
 import {
   SafeAreaView,
   StyleSheet,
@@ -26,7 +26,7 @@ import {
   ReloadInstructions,
 } from 'react-native/Libraries/NewAppScreen';
 
-const App = () => {
+const App:FC = () => {
   const usingHermes = typeof HermesInternal === 'object' && HermesInternal !== null;
 
   return (
