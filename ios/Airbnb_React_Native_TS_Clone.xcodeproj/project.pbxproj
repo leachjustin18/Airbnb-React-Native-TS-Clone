@@ -12,14 +12,14 @@
 		13B07FBD1A68108700A75B9A /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 13B07FB11A68108700A75B9A /* LaunchScreen.xib */; };
 		13B07FBF1A68108700A75B9A /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 13B07FB51A68108700A75B9A /* Images.xcassets */; };
 		13B07FC11A68108700A75B9A /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 13B07FB71A68108700A75B9A /* main.m */; };
+		2A279BCD7CA8F014C5E5CE9A /* libPods-Airbnb_React_Native_TS_CloneTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 7E1DC03C766135C190AD7D9F /* libPods-Airbnb_React_Native_TS_CloneTests.a */; };
 		2D02E4BC1E0B4A80006451C7 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 13B07FB01A68108700A75B9A /* AppDelegate.m */; };
 		2D02E4BD1E0B4A84006451C7 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 13B07FB51A68108700A75B9A /* Images.xcassets */; };
 		2D02E4BF1E0B4AB3006451C7 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 13B07FB71A68108700A75B9A /* main.m */; };
 		2DCD954D1E0B4F2C00145EB5 /* Airbnb_React_Native_TS_CloneTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 00E356F21AD99517003FC87E /* Airbnb_React_Native_TS_CloneTests.m */; };
-		44817E818D92D86D7DCDF73C /* libPods-Airbnb_React_Native_TS_CloneTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = C328F24C646508A99004F332 /* libPods-Airbnb_React_Native_TS_CloneTests.a */; };
-		64E31461BFE1EBE38A885C2B /* libPods-Airbnb_React_Native_TS_Clone.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 4A94E615478D056133E2B663 /* libPods-Airbnb_React_Native_TS_Clone.a */; };
-		E520F7B80B436E9DB1C4FC07 /* libPods-Airbnb_React_Native_TS_Clone-tvOS.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 481F53477F9246330A39C55D /* libPods-Airbnb_React_Native_TS_Clone-tvOS.a */; };
-		F8A0E8CFB9608AF7C1F14B11 /* libPods-Airbnb_React_Native_TS_Clone-tvOSTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 2EDE703264259265D3A4F7B8 /* libPods-Airbnb_React_Native_TS_Clone-tvOSTests.a */; };
+		7787D9D5A3670203EB25C1C0 /* libPods-Airbnb_React_Native_TS_Clone-tvOS.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 34CE819E1E8C35DB27C40F53 /* libPods-Airbnb_React_Native_TS_Clone-tvOS.a */; };
+		B9D601F6E50029836D51A933 /* libPods-Airbnb_React_Native_TS_Clone.a in Frameworks */ = {isa = PBXBuildFile; fileRef = A79FEBB34330C2915D765876 /* libPods-Airbnb_React_Native_TS_Clone.a */; };
+		BB196C4F8B8448D18C2DF905 /* libPods-Airbnb_React_Native_TS_Clone-tvOSTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 661D53561087E7132D60FE8D /* libPods-Airbnb_React_Native_TS_Clone-tvOSTests.a */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -44,8 +44,6 @@
 		00E356EE1AD99517003FC87E /* Airbnb_React_Native_TS_CloneTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = Airbnb_React_Native_TS_CloneTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		00E356F11AD99517003FC87E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		00E356F21AD99517003FC87E /* Airbnb_React_Native_TS_CloneTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Airbnb_React_Native_TS_CloneTests.m; sourceTree = "<group>"; };
-		053F38DEDDACEABD8E79186D /* Pods-Airbnb_React_Native_TS_Clone-tvOSTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Airbnb_React_Native_TS_Clone-tvOSTests.debug.xcconfig"; path = "Target Support Files/Pods-Airbnb_React_Native_TS_Clone-tvOSTests/Pods-Airbnb_React_Native_TS_Clone-tvOSTests.debug.xcconfig"; sourceTree = "<group>"; };
-		0BCE40A4B0974906B4B0F15F /* Pods-Airbnb_React_Native_TS_CloneTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Airbnb_React_Native_TS_CloneTests.release.xcconfig"; path = "Target Support Files/Pods-Airbnb_React_Native_TS_CloneTests/Pods-Airbnb_React_Native_TS_CloneTests.release.xcconfig"; sourceTree = "<group>"; };
 		13B07F961A680F5B00A75B9A /* Airbnb_React_Native_TS_Clone.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Airbnb_React_Native_TS_Clone.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		13B07FAF1A68108700A75B9A /* AppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = AppDelegate.h; path = Airbnb_React_Native_TS_Clone/AppDelegate.h; sourceTree = "<group>"; };
 		13B07FB01A68108700A75B9A /* AppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = AppDelegate.m; path = Airbnb_React_Native_TS_Clone/AppDelegate.m; sourceTree = "<group>"; };
@@ -53,18 +51,20 @@
 		13B07FB51A68108700A75B9A /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; name = Images.xcassets; path = Airbnb_React_Native_TS_Clone/Images.xcassets; sourceTree = "<group>"; };
 		13B07FB61A68108700A75B9A /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = Info.plist; path = Airbnb_React_Native_TS_Clone/Info.plist; sourceTree = "<group>"; };
 		13B07FB71A68108700A75B9A /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = main.m; path = Airbnb_React_Native_TS_Clone/main.m; sourceTree = "<group>"; };
-		15D4C442EBBC30EA32603FD4 /* Pods-Airbnb_React_Native_TS_Clone.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Airbnb_React_Native_TS_Clone.debug.xcconfig"; path = "Target Support Files/Pods-Airbnb_React_Native_TS_Clone/Pods-Airbnb_React_Native_TS_Clone.debug.xcconfig"; sourceTree = "<group>"; };
-		16C443E0CE7B2DDE8D265223 /* Pods-Airbnb_React_Native_TS_Clone.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Airbnb_React_Native_TS_Clone.release.xcconfig"; path = "Target Support Files/Pods-Airbnb_React_Native_TS_Clone/Pods-Airbnb_React_Native_TS_Clone.release.xcconfig"; sourceTree = "<group>"; };
+		14C9C45009C41415E712DDE5 /* Pods-Airbnb_React_Native_TS_CloneTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Airbnb_React_Native_TS_CloneTests.debug.xcconfig"; path = "Target Support Files/Pods-Airbnb_React_Native_TS_CloneTests/Pods-Airbnb_React_Native_TS_CloneTests.debug.xcconfig"; sourceTree = "<group>"; };
+		21AD3F3D7A0747BCD1D4F033 /* Pods-Airbnb_React_Native_TS_Clone-tvOS.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Airbnb_React_Native_TS_Clone-tvOS.release.xcconfig"; path = "Target Support Files/Pods-Airbnb_React_Native_TS_Clone-tvOS/Pods-Airbnb_React_Native_TS_Clone-tvOS.release.xcconfig"; sourceTree = "<group>"; };
+		27BF6A96AE65EC31922AC23D /* Pods-Airbnb_React_Native_TS_Clone-tvOS.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Airbnb_React_Native_TS_Clone-tvOS.debug.xcconfig"; path = "Target Support Files/Pods-Airbnb_React_Native_TS_Clone-tvOS/Pods-Airbnb_React_Native_TS_Clone-tvOS.debug.xcconfig"; sourceTree = "<group>"; };
 		2D02E47B1E0B4A5D006451C7 /* Airbnb_React_Native_TS_Clone-tvOS.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Airbnb_React_Native_TS_Clone-tvOS.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		2D02E4901E0B4A5D006451C7 /* Airbnb_React_Native_TS_Clone-tvOSTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Airbnb_React_Native_TS_Clone-tvOSTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
-		2EDE703264259265D3A4F7B8 /* libPods-Airbnb_React_Native_TS_Clone-tvOSTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-Airbnb_React_Native_TS_Clone-tvOSTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
-		328E39497907FE9F8563251A /* Pods-Airbnb_React_Native_TS_Clone-tvOS.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Airbnb_React_Native_TS_Clone-tvOS.release.xcconfig"; path = "Target Support Files/Pods-Airbnb_React_Native_TS_Clone-tvOS/Pods-Airbnb_React_Native_TS_Clone-tvOS.release.xcconfig"; sourceTree = "<group>"; };
-		34F7C4B1D42ECB46E899D75E /* Pods-Airbnb_React_Native_TS_CloneTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Airbnb_React_Native_TS_CloneTests.debug.xcconfig"; path = "Target Support Files/Pods-Airbnb_React_Native_TS_CloneTests/Pods-Airbnb_React_Native_TS_CloneTests.debug.xcconfig"; sourceTree = "<group>"; };
-		481F53477F9246330A39C55D /* libPods-Airbnb_React_Native_TS_Clone-tvOS.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-Airbnb_React_Native_TS_Clone-tvOS.a"; sourceTree = BUILT_PRODUCTS_DIR; };
-		4A94E615478D056133E2B663 /* libPods-Airbnb_React_Native_TS_Clone.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-Airbnb_React_Native_TS_Clone.a"; sourceTree = BUILT_PRODUCTS_DIR; };
-		A5E6147A4F2B7BA111A07A84 /* Pods-Airbnb_React_Native_TS_Clone-tvOS.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Airbnb_React_Native_TS_Clone-tvOS.debug.xcconfig"; path = "Target Support Files/Pods-Airbnb_React_Native_TS_Clone-tvOS/Pods-Airbnb_React_Native_TS_Clone-tvOS.debug.xcconfig"; sourceTree = "<group>"; };
-		B39818DF06652DEC31592D48 /* Pods-Airbnb_React_Native_TS_Clone-tvOSTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Airbnb_React_Native_TS_Clone-tvOSTests.release.xcconfig"; path = "Target Support Files/Pods-Airbnb_React_Native_TS_Clone-tvOSTests/Pods-Airbnb_React_Native_TS_Clone-tvOSTests.release.xcconfig"; sourceTree = "<group>"; };
-		C328F24C646508A99004F332 /* libPods-Airbnb_React_Native_TS_CloneTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-Airbnb_React_Native_TS_CloneTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		34CE819E1E8C35DB27C40F53 /* libPods-Airbnb_React_Native_TS_Clone-tvOS.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-Airbnb_React_Native_TS_Clone-tvOS.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		56D82A7616B87B40AB5ABADF /* Pods-Airbnb_React_Native_TS_Clone-tvOSTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Airbnb_React_Native_TS_Clone-tvOSTests.debug.xcconfig"; path = "Target Support Files/Pods-Airbnb_React_Native_TS_Clone-tvOSTests/Pods-Airbnb_React_Native_TS_Clone-tvOSTests.debug.xcconfig"; sourceTree = "<group>"; };
+		661D53561087E7132D60FE8D /* libPods-Airbnb_React_Native_TS_Clone-tvOSTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-Airbnb_React_Native_TS_Clone-tvOSTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		7E1DC03C766135C190AD7D9F /* libPods-Airbnb_React_Native_TS_CloneTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-Airbnb_React_Native_TS_CloneTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		8C4497D54FA083D5230BED1E /* Pods-Airbnb_React_Native_TS_Clone.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Airbnb_React_Native_TS_Clone.release.xcconfig"; path = "Target Support Files/Pods-Airbnb_React_Native_TS_Clone/Pods-Airbnb_React_Native_TS_Clone.release.xcconfig"; sourceTree = "<group>"; };
+		A79FEBB34330C2915D765876 /* libPods-Airbnb_React_Native_TS_Clone.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-Airbnb_React_Native_TS_Clone.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		D7FA0026A12E15197D8A0E6D /* Pods-Airbnb_React_Native_TS_Clone-tvOSTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Airbnb_React_Native_TS_Clone-tvOSTests.release.xcconfig"; path = "Target Support Files/Pods-Airbnb_React_Native_TS_Clone-tvOSTests/Pods-Airbnb_React_Native_TS_Clone-tvOSTests.release.xcconfig"; sourceTree = "<group>"; };
+		DD2C7E1CCCD87C141F391729 /* Pods-Airbnb_React_Native_TS_CloneTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Airbnb_React_Native_TS_CloneTests.release.xcconfig"; path = "Target Support Files/Pods-Airbnb_React_Native_TS_CloneTests/Pods-Airbnb_React_Native_TS_CloneTests.release.xcconfig"; sourceTree = "<group>"; };
+		EB589E336A5A0306EADADF1F /* Pods-Airbnb_React_Native_TS_Clone.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Airbnb_React_Native_TS_Clone.debug.xcconfig"; path = "Target Support Files/Pods-Airbnb_React_Native_TS_Clone/Pods-Airbnb_React_Native_TS_Clone.debug.xcconfig"; sourceTree = "<group>"; };
 		ED297162215061F000B7C4FE /* JavaScriptCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = JavaScriptCore.framework; path = System/Library/Frameworks/JavaScriptCore.framework; sourceTree = SDKROOT; };
 		ED2971642150620600B7C4FE /* JavaScriptCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = JavaScriptCore.framework; path = Platforms/AppleTVOS.platform/Developer/SDKs/AppleTVOS12.0.sdk/System/Library/Frameworks/JavaScriptCore.framework; sourceTree = DEVELOPER_DIR; };
 /* End PBXFileReference section */
@@ -74,7 +74,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				44817E818D92D86D7DCDF73C /* libPods-Airbnb_React_Native_TS_CloneTests.a in Frameworks */,
+				2A279BCD7CA8F014C5E5CE9A /* libPods-Airbnb_React_Native_TS_CloneTests.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -82,7 +82,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				64E31461BFE1EBE38A885C2B /* libPods-Airbnb_React_Native_TS_Clone.a in Frameworks */,
+				B9D601F6E50029836D51A933 /* libPods-Airbnb_React_Native_TS_Clone.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -90,7 +90,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				E520F7B80B436E9DB1C4FC07 /* libPods-Airbnb_React_Native_TS_Clone-tvOS.a in Frameworks */,
+				7787D9D5A3670203EB25C1C0 /* libPods-Airbnb_React_Native_TS_Clone-tvOS.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -98,7 +98,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				F8A0E8CFB9608AF7C1F14B11 /* libPods-Airbnb_React_Native_TS_Clone-tvOSTests.a in Frameworks */,
+				BB196C4F8B8448D18C2DF905 /* libPods-Airbnb_React_Native_TS_Clone-tvOSTests.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -141,12 +141,28 @@
 			children = (
 				ED297162215061F000B7C4FE /* JavaScriptCore.framework */,
 				ED2971642150620600B7C4FE /* JavaScriptCore.framework */,
-				4A94E615478D056133E2B663 /* libPods-Airbnb_React_Native_TS_Clone.a */,
-				481F53477F9246330A39C55D /* libPods-Airbnb_React_Native_TS_Clone-tvOS.a */,
-				2EDE703264259265D3A4F7B8 /* libPods-Airbnb_React_Native_TS_Clone-tvOSTests.a */,
-				C328F24C646508A99004F332 /* libPods-Airbnb_React_Native_TS_CloneTests.a */,
+				A79FEBB34330C2915D765876 /* libPods-Airbnb_React_Native_TS_Clone.a */,
+				34CE819E1E8C35DB27C40F53 /* libPods-Airbnb_React_Native_TS_Clone-tvOS.a */,
+				661D53561087E7132D60FE8D /* libPods-Airbnb_React_Native_TS_Clone-tvOSTests.a */,
+				7E1DC03C766135C190AD7D9F /* libPods-Airbnb_React_Native_TS_CloneTests.a */,
 			);
 			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		43899AA67731F16FBCCCCE09 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				EB589E336A5A0306EADADF1F /* Pods-Airbnb_React_Native_TS_Clone.debug.xcconfig */,
+				8C4497D54FA083D5230BED1E /* Pods-Airbnb_React_Native_TS_Clone.release.xcconfig */,
+				27BF6A96AE65EC31922AC23D /* Pods-Airbnb_React_Native_TS_Clone-tvOS.debug.xcconfig */,
+				21AD3F3D7A0747BCD1D4F033 /* Pods-Airbnb_React_Native_TS_Clone-tvOS.release.xcconfig */,
+				56D82A7616B87B40AB5ABADF /* Pods-Airbnb_React_Native_TS_Clone-tvOSTests.debug.xcconfig */,
+				D7FA0026A12E15197D8A0E6D /* Pods-Airbnb_React_Native_TS_Clone-tvOSTests.release.xcconfig */,
+				14C9C45009C41415E712DDE5 /* Pods-Airbnb_React_Native_TS_CloneTests.debug.xcconfig */,
+				DD2C7E1CCCD87C141F391729 /* Pods-Airbnb_React_Native_TS_CloneTests.release.xcconfig */,
+			);
+			name = Pods;
+			path = Pods;
 			sourceTree = "<group>";
 		};
 		832341AE1AAA6A7D00B99B32 /* Libraries */ = {
@@ -164,7 +180,7 @@
 				00E356EF1AD99517003FC87E /* Airbnb_React_Native_TS_CloneTests */,
 				83CBBA001A601CBA00E9B192 /* Products */,
 				2D16E6871FA4F8E400B85C8A /* Frameworks */,
-				D879B5E405FB9CE62EB290E3 /* Pods */,
+				43899AA67731F16FBCCCCE09 /* Pods */,
 			);
 			indentWidth = 2;
 			sourceTree = "<group>";
@@ -182,22 +198,6 @@
 			name = Products;
 			sourceTree = "<group>";
 		};
-		D879B5E405FB9CE62EB290E3 /* Pods */ = {
-			isa = PBXGroup;
-			children = (
-				15D4C442EBBC30EA32603FD4 /* Pods-Airbnb_React_Native_TS_Clone.debug.xcconfig */,
-				16C443E0CE7B2DDE8D265223 /* Pods-Airbnb_React_Native_TS_Clone.release.xcconfig */,
-				A5E6147A4F2B7BA111A07A84 /* Pods-Airbnb_React_Native_TS_Clone-tvOS.debug.xcconfig */,
-				328E39497907FE9F8563251A /* Pods-Airbnb_React_Native_TS_Clone-tvOS.release.xcconfig */,
-				053F38DEDDACEABD8E79186D /* Pods-Airbnb_React_Native_TS_Clone-tvOSTests.debug.xcconfig */,
-				B39818DF06652DEC31592D48 /* Pods-Airbnb_React_Native_TS_Clone-tvOSTests.release.xcconfig */,
-				34F7C4B1D42ECB46E899D75E /* Pods-Airbnb_React_Native_TS_CloneTests.debug.xcconfig */,
-				0BCE40A4B0974906B4B0F15F /* Pods-Airbnb_React_Native_TS_CloneTests.release.xcconfig */,
-			);
-			name = Pods;
-			path = Pods;
-			sourceTree = "<group>";
-		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -205,7 +205,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 00E357021AD99517003FC87E /* Build configuration list for PBXNativeTarget "Airbnb_React_Native_TS_CloneTests" */;
 			buildPhases = (
-				64B29656B1E2FBF63A80505E /* [CP] Check Pods Manifest.lock */,
+				AD76DB6E116C2B9815A128DC /* [CP] Check Pods Manifest.lock */,
 				00E356EA1AD99517003FC87E /* Sources */,
 				00E356EB1AD99517003FC87E /* Frameworks */,
 				00E356EC1AD99517003FC87E /* Resources */,
@@ -224,7 +224,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 13B07F931A680F5B00A75B9A /* Build configuration list for PBXNativeTarget "Airbnb_React_Native_TS_Clone" */;
 			buildPhases = (
-				C919A1E47F100E112AD14A7E /* [CP] Check Pods Manifest.lock */,
+				B098368532C61EA4699862B8 /* [CP] Check Pods Manifest.lock */,
 				FD10A7F022414F080027D42C /* Start Packager */,
 				13B07F871A680F5B00A75B9A /* Sources */,
 				13B07F8C1A680F5B00A75B9A /* Frameworks */,
@@ -244,7 +244,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 2D02E4BA1E0B4A5E006451C7 /* Build configuration list for PBXNativeTarget "Airbnb_React_Native_TS_Clone-tvOS" */;
 			buildPhases = (
-				2D116878A87331A7551CC7D7 /* [CP] Check Pods Manifest.lock */,
+				E284BE10F5CEB2C4427A31D1 /* [CP] Check Pods Manifest.lock */,
 				FD10A7F122414F3F0027D42C /* Start Packager */,
 				2D02E4771E0B4A5D006451C7 /* Sources */,
 				2D02E4781E0B4A5D006451C7 /* Frameworks */,
@@ -264,7 +264,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 2D02E4BB1E0B4A5E006451C7 /* Build configuration list for PBXNativeTarget "Airbnb_React_Native_TS_Clone-tvOSTests" */;
 			buildPhases = (
-				DD3915306F2144FE9F9B1F90 /* [CP] Check Pods Manifest.lock */,
+				41EE9325582F9457782A1E8A /* [CP] Check Pods Manifest.lock */,
 				2D02E48C1E0B4A5D006451C7 /* Sources */,
 				2D02E48D1E0B4A5D006451C7 /* Frameworks */,
 				2D02E48E1E0B4A5D006451C7 /* Resources */,
@@ -387,7 +387,7 @@
 			shellPath = /bin/sh;
 			shellScript = "export NODE_BINARY=node\n../node_modules/react-native/scripts/react-native-xcode.sh";
 		};
-		2D116878A87331A7551CC7D7 /* [CP] Check Pods Manifest.lock */ = {
+		41EE9325582F9457782A1E8A /* [CP] Check Pods Manifest.lock */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -402,14 +402,14 @@
 			outputFileListPaths = (
 			);
 			outputPaths = (
-				"$(DERIVED_FILE_DIR)/Pods-Airbnb_React_Native_TS_Clone-tvOS-checkManifestLockResult.txt",
+				"$(DERIVED_FILE_DIR)/Pods-Airbnb_React_Native_TS_Clone-tvOSTests-checkManifestLockResult.txt",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
 			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
 			showEnvVarsInLog = 0;
 		};
-		64B29656B1E2FBF63A80505E /* [CP] Check Pods Manifest.lock */ = {
+		AD76DB6E116C2B9815A128DC /* [CP] Check Pods Manifest.lock */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -431,7 +431,7 @@
 			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
 			showEnvVarsInLog = 0;
 		};
-		C919A1E47F100E112AD14A7E /* [CP] Check Pods Manifest.lock */ = {
+		B098368532C61EA4699862B8 /* [CP] Check Pods Manifest.lock */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -453,7 +453,7 @@
 			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
 			showEnvVarsInLog = 0;
 		};
-		DD3915306F2144FE9F9B1F90 /* [CP] Check Pods Manifest.lock */ = {
+		E284BE10F5CEB2C4427A31D1 /* [CP] Check Pods Manifest.lock */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -468,7 +468,7 @@
 			outputFileListPaths = (
 			);
 			outputPaths = (
-				"$(DERIVED_FILE_DIR)/Pods-Airbnb_React_Native_TS_Clone-tvOSTests-checkManifestLockResult.txt",
+				"$(DERIVED_FILE_DIR)/Pods-Airbnb_React_Native_TS_Clone-tvOS-checkManifestLockResult.txt",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
@@ -580,7 +580,7 @@
 /* Begin XCBuildConfiguration section */
 		00E356F61AD99517003FC87E /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 34F7C4B1D42ECB46E899D75E /* Pods-Airbnb_React_Native_TS_CloneTests.debug.xcconfig */;
+			baseConfigurationReference = 14C9C45009C41415E712DDE5 /* Pods-Airbnb_React_Native_TS_CloneTests.debug.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				GCC_PREPROCESSOR_DEFINITIONS = (
@@ -603,7 +603,7 @@
 		};
 		00E356F71AD99517003FC87E /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 0BCE40A4B0974906B4B0F15F /* Pods-Airbnb_React_Native_TS_CloneTests.release.xcconfig */;
+			baseConfigurationReference = DD2C7E1CCCD87C141F391729 /* Pods-Airbnb_React_Native_TS_CloneTests.release.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				COPY_PHASE_STRIP = NO;
@@ -623,7 +623,7 @@
 		};
 		13B07F941A680F5B00A75B9A /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 15D4C442EBBC30EA32603FD4 /* Pods-Airbnb_React_Native_TS_Clone.debug.xcconfig */;
+			baseConfigurationReference = EB589E336A5A0306EADADF1F /* Pods-Airbnb_React_Native_TS_Clone.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CURRENT_PROJECT_VERSION = 1;
@@ -643,7 +643,7 @@
 		};
 		13B07F951A680F5B00A75B9A /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 16C443E0CE7B2DDE8D265223 /* Pods-Airbnb_React_Native_TS_Clone.release.xcconfig */;
+			baseConfigurationReference = 8C4497D54FA083D5230BED1E /* Pods-Airbnb_React_Native_TS_Clone.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CURRENT_PROJECT_VERSION = 1;
@@ -662,7 +662,7 @@
 		};
 		2D02E4971E0B4A5E006451C7 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = A5E6147A4F2B7BA111A07A84 /* Pods-Airbnb_React_Native_TS_Clone-tvOS.debug.xcconfig */;
+			baseConfigurationReference = 27BF6A96AE65EC31922AC23D /* Pods-Airbnb_React_Native_TS_Clone-tvOS.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = "App Icon & Top Shelf Image";
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
@@ -690,7 +690,7 @@
 		};
 		2D02E4981E0B4A5E006451C7 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 328E39497907FE9F8563251A /* Pods-Airbnb_React_Native_TS_Clone-tvOS.release.xcconfig */;
+			baseConfigurationReference = 21AD3F3D7A0747BCD1D4F033 /* Pods-Airbnb_React_Native_TS_Clone-tvOS.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = "App Icon & Top Shelf Image";
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
@@ -718,7 +718,7 @@
 		};
 		2D02E4991E0B4A5E006451C7 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 053F38DEDDACEABD8E79186D /* Pods-Airbnb_React_Native_TS_Clone-tvOSTests.debug.xcconfig */;
+			baseConfigurationReference = 56D82A7616B87B40AB5ABADF /* Pods-Airbnb_React_Native_TS_Clone-tvOSTests.debug.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				CLANG_ANALYZER_NONNULL = YES;
@@ -745,7 +745,7 @@
 		};
 		2D02E49A1E0B4A5E006451C7 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = B39818DF06652DEC31592D48 /* Pods-Airbnb_React_Native_TS_Clone-tvOSTests.release.xcconfig */;
+			baseConfigurationReference = D7FA0026A12E15197D8A0E6D /* Pods-Airbnb_React_Native_TS_Clone-tvOSTests.release.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				CLANG_ANALYZER_NONNULL = YES;
