@@ -37,10 +37,15 @@
   "jest": {
     "preset": "react-native"
   },
-    "lint-staged": {
-      "*": [
-        "npm run lint",
-        "git add"
-      ]
+  "husky": {
+    "hooks": {
+      "pre-commit": "lint-staged"
     }
+  },
+  "lint-staged": {
+    "*": [
+      "npm run lint",
+      "git add"
+    ]
+  }
 }
