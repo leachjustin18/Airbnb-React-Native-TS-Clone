@@ -5,7 +5,8 @@
   "scripts": {
     "start": "react-native start",
     "test": "jest",
-    "lint": "tslint --fix -c ./tslint.json src/**/*{.ts,.tsx}"
+
+    "lint": "tslint --fix -c ./tslint.json src/**/*{.ts,.tsx} & git add ."
   },
   "dependencies": {
     "react": "16.8.6",
@@ -37,7 +38,7 @@
   },
   "husky": {
     "hooks": {
-      "pre-commit": "npm run lint && git add"
+      "pre-commit": "npm run lint"
     }
   }
 }
