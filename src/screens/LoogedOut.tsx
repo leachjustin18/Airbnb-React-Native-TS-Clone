@@ -15,8 +15,28 @@ import colors from '../styles/colors';
 
 const LoggedOut: FC = () => {
   return (
-    <View>
-      <SafeAreaView />
+    <View style={styles.wrapper}>
+      <SafeAreaView style={styles.safeAreaView}>
+        <View style={styles.welcomeWrapper}>
+          <Image
+            source={require('../images/airbnb_vertical_lockup_web.png')}
+            style={styles.logo}
+          />
+
+          <Text style={styles.welcomeText}>Welcome to AirBnb.</Text>
+
+          <RoundedButtons
+            text="Continue with Facebook"
+            color={colors.green01}
+            backgroundColor={colors.white}
+            icon={
+              <Icon name="Facebook" size={20} style={styles.facebookIcon} />
+            }
+          />
+
+          <RoundedButtons text="Create Account" />
+        </View>
+      </SafeAreaView>
     </View>
   );
 };
