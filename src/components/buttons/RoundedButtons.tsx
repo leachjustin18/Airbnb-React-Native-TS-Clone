@@ -5,7 +5,7 @@
 import React, { FC } from 'react';
 import colors from '../../styles/colors';
 
-import { StyleSheet, Text, TouchableHighlight, View, Button } from 'react-native';
+import { StyleSheet, Text, TouchableHighlight, View, Button, Image } from 'react-native';
 
 interface IRoundedButtonsProps {
   text: string;
