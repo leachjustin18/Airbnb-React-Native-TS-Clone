@@ -38,7 +38,7 @@
     "preset": "react-native"
   },
     "lint-staged": {
-      "*.{ts,tsx}": [
+      "*": [
         "npm run lint",
         "git add"
       ]
