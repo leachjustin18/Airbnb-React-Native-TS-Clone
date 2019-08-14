@@ -5,7 +5,7 @@
 import React, { FC } from 'react';
 import colors from '../../styles/colors';
 
-import { Text, TouchableHighlight, View } from 'react-native';
+import { Text, TouchableHighlight, View, StyleSheet } from 'react-native';
 
 interface IRoundedButtonsProps {
   text: string;
@@ -22,12 +22,31 @@ const RoundedButtons: FC<IRoundedButtonsProps> = ({
   icon,
   handleOnPress,
 }) => (
-  <TouchableHighlight style={{ backgroundColor }} onPress={handleOnPress}>
-    <View>
+  <TouchableHighlight style={[{ backgroundColor }, styles.wrapper]} onPress={handleOnPress}>
+    <View style={styles.iconTextWrapper}>
       {icon}
-      <Text style={{ color }}>{text}</Text>
+      <Text style={[{ color }, styles.buttonText]}>{text}</Text>
     </View>
   </TouchableHighlight>
 );
+
+const styles = StyleSheet.create({
+    wrapper: {
+        borderRadius: 40,
+        padding: 15,
+        borderWidth: 1,
+        borderColor: colors.white,
+    },
+    buttonText: {
+        fontSize: 16,
+        width: '100%',
+        textAlign: 'center',
+    },
+    iconTextWrapper: {
+        display: 'flex',
+        justifyContent: 'flex-end',
+        flexDirection: 'row'
+    }
+});
 
 export default RoundedButtons;
