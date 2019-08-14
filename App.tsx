@@ -8,7 +8,7 @@
  * @format
  */
 
-import React, {Fragment, FC} from 'react';
+import React, { Fragment, FC } from 'react';
 import {
   SafeAreaView,
   StyleSheet,
@@ -26,8 +26,9 @@ import {
   ReloadInstructions,
 } from 'react-native/Libraries/NewAppScreen';
 
-const App:FC = () => {
-  const usingHermes = typeof HermesInternal === 'object' && HermesInternal !== null;
+const App: FC = () => {
+  const usingHermes =
+    typeof HermesInternal === 'object' && HermesInternal !== null;
 
   return (
     <Fragment>
@@ -35,7 +36,8 @@ const App:FC = () => {
       <SafeAreaView>
         <ScrollView
           contentInsetAdjustmentBehavior="automatic"
-          style={styles.scrollView}>
+          style={styles.scrollView}
+        >
           <Header />
           {!usingHermes ? null : (
             <View style={styles.engine}>
@@ -46,8 +48,8 @@ const App:FC = () => {
             <View style={styles.sectionContainer}>
               <Text style={styles.sectionTitle}>Step One</Text>
               <Text style={styles.sectionDescription}>
-                Edit <Text style={styles.highlight}>App.tsx</Text> to change this
-                screen and then come back to see your edits.
+                Edit <Text style={styles.highlight}>App.tsx</Text> to change
+                this screen and then come back to see your edits.
               </Text>
             </View>
             <View style={styles.sectionContainer}>
@@ -103,7 +105,7 @@ const styles = StyleSheet.create({
     color: Colors.dark,
   },
   highlight: {
-    fontWeight: '700',
+    fontWeight: '700'
   },
   footer: {
     color: Colors.dark,
@@ -111,7 +113,7 @@ const styles = StyleSheet.create({
     fontWeight: '600',
     padding: 4,
     paddingRight: 12,
-    textAlign: 'right',
+    textAlign: 'right'
   },
 });
 

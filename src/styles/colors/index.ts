@@ -1,4 +1,4 @@
 export default {
-    white: '#ffffff',
-    green01: '#008388'
-}
+  green01: '#008388',
+  white: '#ffffff',
+};
