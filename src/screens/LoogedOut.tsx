@@ -30,7 +30,7 @@ const LoggedOut: FC = () => {
             color={colors.green01}
             backgroundColor={colors.white}
             icon={
-              <Icon name="Facebook" size={20} style={styles.facebookIcon} />
+              <Icon name="facebook" size={20} style={styles.facebookIcon} />
             }
           />
 
