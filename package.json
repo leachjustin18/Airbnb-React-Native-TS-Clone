@@ -22,6 +22,7 @@
     "babel-jest": "^24.8.0",
     "husky": "^3.0.3",
     "jest": "^24.8.0",
+    "lint-staged": "^9.2.1",
     "metro-react-native-babel-preset": "^0.56.0",
     "prettier": "^1.18.2",
     "react-test-renderer": "16.8.6",
@@ -36,9 +37,10 @@
   "jest": {
     "preset": "react-native"
   },
-  "husky": {
-    "hooks": {
-      "pre-commit": "npm run lint"
+    "lint-staged": {
+      "*.{ts,tsx}": [
+        "npm run lint",
+        "git add"
+      ]
     }
-  }
 }
