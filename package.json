@@ -5,7 +5,8 @@
   "scripts": {
     "start": "react-native start",
     "test": "jest",
-    "lint": "tslint --fix -c ./tslint.json src/**/*{.ts,.tsx}"
+    "lint": "tslint --fix -c ./tslint.json src/**/*{.ts,.tsx}", 
+    "iOS": "react-native run-ios"
   },
   "dependencies": {
     "react": "16.8.6",
