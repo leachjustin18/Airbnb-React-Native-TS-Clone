@@ -5,13 +5,7 @@
 import React, { FC } from 'react';
 import colors from '../../styles/colors';
 
-import {
-  Button,
-  StyleSheet,
-  Text,
-  TouchableHighlight,
-  View,
-} from 'react-native';
+import { StyleSheet, Text, TouchableHighlight, View } from 'react-native';
 
 interface IRoundedButtonsProps {
   text: string;
@@ -40,21 +34,22 @@ const RoundedButtons: FC<IRoundedButtonsProps> = ({
 );
 
 const styles = StyleSheet.create({
-  wrapper: {
-    borderRadius: 40,
-    padding: 15,
-    borderWidth: 1,
-    borderColor: colors.white,
-  },
   buttonText: {
     fontSize: 16,
-    width: '100%',
     textAlign: 'center',
+    width: '100%',
   },
+
   iconTextWrapper: {
     display: 'flex',
-    justifyContent: 'flex-end',
     flexDirection: 'row',
+    justifyContent: 'flex-end',
+  },
+  wrapper: {
+    borderColor: colors.white,
+    borderRadius: 40,
+    borderWidth: 1,
+    padding: 15,
   },
 });
 
