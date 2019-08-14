@@ -39,7 +39,6 @@ const styles = StyleSheet.create({
     textAlign: 'center',
     width: '100%',
   },
-
   iconTextWrapper: {
     display: 'flex',
     flexDirection: 'row',
