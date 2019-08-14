@@ -5,7 +5,7 @@
   "scripts": {
     "start": "react-native start",
     "test": "jest",
-    "lint": "tslint --fix -c ./tslint.json src/**/*{.ts,.tsx} & git add ."
+    "lint": "tslint --fix -c ./tslint.json src/**/*{.ts,.tsx}"
   },
   "dependencies": {
     "react": "16.8.6",
@@ -43,7 +43,7 @@
     }
   },
   "lint-staged": {
-    "*": [
+    "*.{ts,tsx}": [
       "npm run lint",
       "git add"
     ]
