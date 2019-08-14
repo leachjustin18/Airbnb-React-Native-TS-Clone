@@ -7,7 +7,7 @@ import colors from '../../styles/colors';
 
 import { Text, TouchableHighlight, View } from 'react-native';
 
-console.log('test')
+console.log('test');
 
 interface IRoundedButtonsProps {
   text: string;
