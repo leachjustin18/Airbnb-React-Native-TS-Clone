@@ -1,5 +1,6 @@
 import React, { FC } from 'react';
 import {
+  Alert,
   Image,
   SafeAreaView,
   ScrollView,
@@ -14,6 +15,51 @@ import RoundedButtons from '../components/buttons/RoundedButtons';
 import colors from '../styles/colors';
 
 const LoggedOut: FC = () => {
+  const onFacebookPress = () => {
+    Alert.alert(
+      'On Facebook Press',
+      '',
+      [
+        {
+          style: 'cancel',
+          text: 'Cancel',
+        },
+        { text: 'OK' },
+      ],
+      { cancelable: false },
+    );
+  };
+
+  const onCreateAccountPress = () => {
+    Alert.alert(
+      'On Create Account Press',
+      '',
+      [
+        {
+          style: 'cancel',
+          text: 'Cancel',
+        },
+        { text: 'OK' },
+      ],
+      { cancelable: false },
+    );
+  };
+
+  const onMoreOptionsPress = () => {
+    Alert.alert(
+      'On More Options Press',
+      '',
+      [
+        {
+          style: 'cancel',
+          text: 'Cancel',
+        },
+        { text: 'OK' },
+      ],
+      { cancelable: false },
+    );
+  };
+
   return (
     <View style={styles.wrapper}>
       <SafeAreaView style={styles.safeAreaView}>
@@ -28,6 +74,7 @@ const LoggedOut: FC = () => {
 
             <RoundedButtons
               text="Continue with Facebook"
+              handleOnPress={onFacebookPress}
               color={colors.green01}
               backgroundColor={colors.white}
               style={{ marginBottom: 15 }}
@@ -36,9 +83,15 @@ const LoggedOut: FC = () => {
               }
             />
 
-            <RoundedButtons text="Create Account" />
+            <RoundedButtons
+              text="Create Account"
+              handleOnPress={onCreateAccountPress}
+            />
 
-            <TouchableHighlight style={styles.moreOptionsButton}>
+            <TouchableHighlight
+              style={styles.moreOptionsButton}
+              onPress={onMoreOptionsPress}
+            >
               <Text style={styles.moreOptionsButtonText}>More options</Text>
             </TouchableHighlight>
 
