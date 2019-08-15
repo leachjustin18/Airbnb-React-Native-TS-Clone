@@ -9,6 +9,7 @@ import {
 } from 'react-native';
 // tslint:disable-next-line
 import Icon from 'react-native-vector-icons/FontAwesome';
+import InputField from '../components/form/InputField';
 import colors from '../styles/colors';
 
 const LogIn: FC = () => {
@@ -18,6 +19,17 @@ const LogIn: FC = () => {
         <View style={styles.scrollViewWrapper}>
           <ScrollView style={styles.scrollView}>
             <Text style={styles.logInText}>Log In</Text>
+            <InputField
+              labelText="EMAIL ADDRESS"
+              labelTextSize={14}
+              labelColor={colors.white}
+            />
+
+            <InputField
+              labelText="PASSWORD"
+              labelTextSize={14}
+              labelColor={colors.white}
+            />
           </ScrollView>
         </View>
       </SafeAreaView>
@@ -45,6 +57,7 @@ const styles = StyleSheet.create({
   },
   wrapper: {
     backgroundColor: colors.green01,
+    display: 'flex',
     flex: 1,
   },
 });
