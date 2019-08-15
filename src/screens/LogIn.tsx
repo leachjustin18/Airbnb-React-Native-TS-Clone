@@ -28,7 +28,7 @@ const LogIn: FC = () => {
 const styles = StyleSheet.create({
   logInText: {
     color: colors.white,
-    fontSize: 28,
+    fontSize: 36,
     fontWeight: '300',
     marginBottom: 40,
   },
@@ -36,8 +36,8 @@ const styles = StyleSheet.create({
     flex: 1,
   },
   scrollView: {
-    paddingLeft: 20,
-    paddingRight: 20,
+    paddingLeft: 30,
+    paddingRight: 30,
     paddingTop: 20,
   },
   scrollViewWrapper: {
