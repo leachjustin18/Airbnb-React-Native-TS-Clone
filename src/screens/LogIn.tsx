@@ -16,8 +16,8 @@ const LogIn: FC = () => {
     <KeyboardAvoidingView style={styles.wrapper}>
       <SafeAreaView style={styles.safeAreaView}>
         <View style={styles.scrollViewWrapper}>
-          <ScrollView>
-            <Text>Log In</Text>
+          <ScrollView style={styles.scrollView}>
+            <Text style={styles.logInText}>Log In</Text>
           </ScrollView>
         </View>
       </SafeAreaView>
@@ -26,8 +26,19 @@ const LogIn: FC = () => {
 };
 
 const styles = StyleSheet.create({
+  logInText: {
+    color: colors.white,
+    fontSize: 28,
+    fontWeight: '300',
+    marginBottom: 40,
+  },
   safeAreaView: {
     flex: 1,
+  },
+  scrollView: {
+    paddingLeft: 20,
+    paddingRight: 20,
+    paddingTop: 20,
   },
   scrollViewWrapper: {
     marginTop: 50,
