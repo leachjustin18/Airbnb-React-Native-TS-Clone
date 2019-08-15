@@ -2,16 +2,16 @@ import React, { FC } from 'react';
 import { StyleSheet, Text, TouchableHighlight, View } from 'react-native';
 import colors from '../../styles/colors';
 
-interface IRoundedButtonsProps {
+type Props = {
   text: string;
   color?: string;
   backgroundColor?: string;
   icon?: object;
   handleOnPress?: () => void;
   style?: object;
-}
+};
 
-const RoundedButtons: FC<IRoundedButtonsProps> = ({
+const RoundedButtons: FC<Props> = ({
   text,
   color = colors.white,
   backgroundColor = 'transparent',
