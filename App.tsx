@@ -10,7 +10,7 @@
 
 import React, { FC, Fragment } from 'react';
 import { StatusBar } from 'react-native';
-import LoggedOutScreen from './src/screens/LoogedOut';
+import LoggedOutScreen from './src/screens/LoggedOut';
 
 const App: FC = () => {
   const usingHermes =
