@@ -6,13 +6,39 @@ import {
   TouchableOpacity,
   View,
 } from 'react-native';
+import colors from '../../styles/colors';
 
-const InputField: FC = () => {
+type Props = {
+  labelText: string;
+  labelTextSize?: number;
+  labelColor?: string;
+};
+
+const InputField: FC<Props> = ({
+  labelColor = colors.white,
+  labelText,
+  labelTextSize = 14,
+}) => {
   return (
     <View>
-      <Text>Input Field</Text>
+      <Text
+        style={[
+          { fontSize: labelTextSize },
+          { color: labelColor },
+          styles.label,
+        ]}
+      >
+        {labelText}
+      </Text>
     </View>
   );
 };
+
+const styles = StyleSheet.create({
+  label: {
+    fontWeight: '700',
+    marginBottom: 10,
+  },
+});
 
 export default InputField;
