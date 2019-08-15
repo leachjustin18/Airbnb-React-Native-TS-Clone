@@ -11,6 +11,7 @@
       "import-name": false,
       "no-boolean-literal-compare": false,
       "variable-name": [true, "allow-pascal-case"],
-      "max-line-length": [false]
+      "max-line-length": [false],
+      "interface-over-type-literal": false
     }
   }
