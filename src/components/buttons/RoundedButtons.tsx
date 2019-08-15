@@ -13,6 +13,7 @@ interface IRoundedButtonsProps {
   backgroundColor?: string;
   icon?: object;
   handleOnPress?: () => void;
+  style?: object;
 }
 
 const RoundedButtons: FC<IRoundedButtonsProps> = ({
@@ -21,9 +22,10 @@ const RoundedButtons: FC<IRoundedButtonsProps> = ({
   backgroundColor = 'transparent',
   icon,
   handleOnPress,
+  style,
 }) => (
   <TouchableHighlight
-    style={[{ backgroundColor }, styles.wrapper]}
+    style={[{ backgroundColor }, styles.wrapper, style]}
     onPress={handleOnPress}
   >
     <View style={styles.iconTextWrapper}>
