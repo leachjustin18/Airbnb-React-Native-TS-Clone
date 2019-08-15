@@ -163,7 +163,7 @@ const styles = StyleSheet.create({
   },
   termText: {
     color: colors.white,
-    fontSize: 10,
+    fontSize: 11,
   },
   termsAndConditions: {
     flexDirection: 'row',
