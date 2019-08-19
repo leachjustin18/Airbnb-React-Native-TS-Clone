@@ -23,12 +23,14 @@ const LogIn: FC = () => {
               labelText="EMAIL ADDRESS"
               labelTextSize={14}
               labelColor={colors.white}
+              keyboardType="email-address"
             />
 
             <InputField
               labelText="PASSWORD"
               labelTextSize={14}
               labelColor={colors.white}
+              secureTextEntry={true}
             />
           </ScrollView>
         </View>
