@@ -24,6 +24,7 @@ const LogIn: FC = () => {
               labelTextSize={14}
               labelColor={colors.white}
               keyboardType="email-address"
+              customWrapperStyle={{ marginBottom: 30 }}
             />
 
             <InputField
@@ -31,6 +32,7 @@ const LogIn: FC = () => {
               labelTextSize={14}
               labelColor={colors.white}
               secureTextEntry={true}
+              customWrapperStyle={{ marginBottom: 30 }}
             />
           </ScrollView>
         </View>

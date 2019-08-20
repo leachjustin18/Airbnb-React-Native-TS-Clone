@@ -1,4 +1,4 @@
-import React, { FC } from 'react';
+import React, { FC, HTMLAttributes } from 'react';
 import {
   StyleSheet,
   Text,
@@ -30,6 +30,7 @@ type Props = {
     | 'web-search'
     | undefined;
   secureTextEntry?: boolean;
+  customWrapperStyle?: object;
 };
 
 const InputField: FC<Props> = ({
@@ -40,9 +41,10 @@ const InputField: FC<Props> = ({
   borderBottomColor = colors.white,
   keyboardType,
   secureTextEntry,
+  customWrapperStyle,
 }) => {
   return (
-    <View>
+    <View style={{ ...customWrapperStyle }}>
       <Text
         style={[
           { fontSize: labelTextSize },
