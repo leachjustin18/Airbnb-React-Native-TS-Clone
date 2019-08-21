@@ -42,7 +42,11 @@ const InputField: FC<Props> = ({
   secureTextEntry,
   customWrapperStyle,
 }) => {
-  const [isSecureTextVisible, setIsSecureTextVisible] = useState(false);
+  const [isSecureTextHidden, setIsSecureTextHidden] = useState(true);
+
+  const handleTogglePassword = () => {
+    setIsSecureTextHidden(!isSecureTextHidden);
+  };
 
   return (
     <View style={{ ...customWrapperStyle }}>
@@ -58,9 +62,9 @@ const InputField: FC<Props> = ({
         </Text>
 
         {secureTextEntry === true ? (
-          <TouchableOpacity>
+          <TouchableOpacity onPress={handleTogglePassword}>
             <Text style={styles.showButtonText}>
-              {!isSecureTextVisible ? 'Show' : 'Hide'}
+              {isSecureTextHidden ? 'Show' : 'Hide'}
             </Text>
           </TouchableOpacity>
         ) : null}
@@ -70,7 +74,7 @@ const InputField: FC<Props> = ({
         autoCorrect={false}
         style={[{ color: textColor }, { borderBottomColor }, styles.inputField]}
         keyboardType={keyboardType}
-        secureTextEntry={secureTextEntry}
+        secureTextEntry={isSecureTextHidden}
       />
     </View>
   );
@@ -92,6 +96,7 @@ const styles = StyleSheet.create({
   },
   showButtonText: {
     color: colors.white,
+    fontWeight: '700',
   },
 });
 
