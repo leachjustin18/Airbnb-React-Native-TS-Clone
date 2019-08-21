@@ -27,8 +27,7 @@ type Props = {
     | 'name-phone-pad'
     | 'decimal-pad'
     | 'twitter'
-    | 'web-search'
-    | undefined;
+    | 'web-search';
   secureTextEntry?: boolean;
   customWrapperStyle?: object;
 };
