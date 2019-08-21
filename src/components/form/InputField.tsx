@@ -1,4 +1,4 @@
-import React, { FC } from 'react';
+import React, { FC, useState } from 'react';
 import {
   StyleSheet,
   Text,
@@ -42,17 +42,29 @@ const InputField: FC<Props> = ({
   secureTextEntry,
   customWrapperStyle,
 }) => {
+  const [isSecureTextVisible, setIsSecureTextVisible] = useState(false);
+
   return (
     <View style={{ ...customWrapperStyle }}>
-      <Text
-        style={[
-          { fontSize: labelTextSize },
-          { color: labelColor },
-          styles.label,
-        ]}
-      >
-        {labelText}
-      </Text>
+      <View style={styles.labelAndShowContainer}>
+        <Text
+          style={[
+            { fontSize: labelTextSize },
+            { color: labelColor },
+            styles.label,
+          ]}
+        >
+          {labelText}
+        </Text>
+
+        {secureTextEntry === true ? (
+          <TouchableOpacity>
+            <Text style={styles.showButtonText}>
+              {!isSecureTextVisible ? 'Show' : 'Hide'}
+            </Text>
+          </TouchableOpacity>
+        ) : null}
+      </View>
 
       <TextInput
         autoCorrect={false}
@@ -73,6 +85,13 @@ const styles = StyleSheet.create({
   label: {
     fontWeight: '700',
     marginBottom: 10,
+  },
+  labelAndShowContainer: {
+    flexDirection: 'row',
+    justifyContent: 'space-between',
+  },
+  showButtonText: {
+    color: colors.white,
   },
 });
 
