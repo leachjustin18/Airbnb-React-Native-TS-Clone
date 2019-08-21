@@ -22,7 +22,7 @@ const LogIn: FC = () => {
   };
 
   return (
-    <KeyboardAvoidingView style={styles.wrapper}>
+    <KeyboardAvoidingView style={styles.wrapper} behavior="padding">
       <SafeAreaView style={styles.safeAreaView}>
         <View style={styles.scrollViewWrapper}>
           <ScrollView style={styles.scrollView}>
@@ -64,6 +64,7 @@ const styles = StyleSheet.create({
     alignItems: 'flex-end',
     flexDirection: 'row',
     justifyContent: 'flex-end',
+    marginBottom: 5,
     right: 20,
   },
   safeAreaView: {
